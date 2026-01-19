@@ -1,0 +1,6 @@
+# Create/edit .gitignore file
+echo "data/raw/*.csv" >> .gitignore
+echo "data/raw/*.xlsx" >> .gitignore
+echo "data/processed/*.csv" >> .gitignore
+echo "*.h5" >> .gitignore
+echo "*.pkl" >> .gitignore
