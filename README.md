@@ -1,55 +1,125 @@
-# UIDAI Hackathon - Aadhaar Enrollment Analysis
+UIDAI Hackathon 2026
 
-## 🚀 Quick Start
+Unlocking Societal Trends in Aadhaar Enrolment and Updates
+This repository contains the complete data analysis, visualizations, and predictive modeling work submitted for the UIDAI Hackathon 2026. The project focuses on identifying meaningful patterns, trends, anomalies, and predictive indicators from Aadhaar enrolment and update datasets to support informed decision‑making and system improvements.
 
-### Prerequisites
-- Python 3.8+
-- 8GB RAM minimum
-- 2GB free disk space
+📌 Project Overview
 
-### Installation
+The analysis explores:
 
-1. Clone the repository:
-```bash
+Temporal and seasonal trends in Aadhaar enrolments
+
+Geographic disparities across states and districts
+
+Demographic composition by age groups
+
+Update‑to‑enrolment behavior as an operational indicator
+
+Short‑term forecasting of enrolment demand
+
+State‑level clustering based on enrolment characteristics
+
+All results are presented through well‑documented notebooks, high‑quality visualizations, and an interactive dashboard.
+
+🚀 Quick Start
+
+Prerequisites
+Python 3.8 or higher
+
+Minimum 8 GB RAM
+
+At least 2 GB free disk space
+
+Installation
+Clone the repository
+
 git clone https://github.com/ahmadjaved79/uidai-hackathon.git
 cd uidai-hackathon
-```
 
-2. Install dependencies:
-```bash
+Install required dependencies
+
 pip install -r requirements.txt
-```
+Dataset setup
 
-3. Download datasets:
-```bash
-python setup.py
-```
-**Alternative**: Manually download from [Google Drive](LINK) and place in `data/raw/`
 
-4. Run analysis:
-```bash
-jupyter notebook notebooks/01_exploration.ipynb
-```
 
-## 📊 Data Sources
+01_exploration.ipynb
+📁 Project Structure
+uidai-hackathon/
+│
+├── data/
+│   ├── raw/                 # Original UIDAI datasets
+│   └── processed/           # Cleaned and feature-engineered data
+│
+├── notebooks/               # Jupyter notebooks (analysis & modeling)
+│   ├── 01_exploration.ipynb
+│   ├── 02_analysis.ipynb
+│   └── 03_modeling.ipynb
+│
+├── src/                     # Supporting Python modules (if any)
+│
+├── outputs/
+│   ├── figures/             # All generated charts and plots
+│   ├── analysis/            # Aggregated results and summaries
+│   └── dashboard.html       # Interactive dashboard (HTML)
+│
+├── final_report.pdf         # Consolidated PDF submission to UIDAI
+├── requirements.txt         # Python dependencies
+├── setup.py                 # Dataset setup helper script
+└── README.md         
 
-Due to GitHub's file size limitations, datasets are hosted externally:
-- **Aadhaar Overall Data** (450 MB): [Download Link](https://drive.google.com/...)
-- **Aadhaar State-wise Data** (280 MB): [Download Link](https://drive.google.com/...)
+# Project documentation
+📊 Outputs and Results
+All analytical outputs are stored in the outputs/ directory, including:
 
-## 📁 Project Structure
-```
-├── notebooks/          # Jupyter notebooks with analysis
-├── src/               # Python modules
-├── outputs/           # Generated figures and results
-├── final_report.pdf   # Hackathon submission
-└── README.md
-```
+High‑resolution figures used in the final report
 
-## 🔧 Troubleshooting
+Aggregated analytical results
 
-**Issue**: "Data files not found"
-**Solution**: Run `python setup.py` or manually download datasets
+dashboard.html – an interactive dashboard summarizing key insights
 
-**Issue**: "Out of memory"
-**Solution**: Use data sampling in notebooks (set `SAMPLE_SIZE=10000`)
+These outputs directly support the findings and recommendations presented in the final PDF submission.
+
+📈 Dashboard
+The interactive dashboard (outputs/dashboard.html) provides:
+
+Overview of enrolment trends
+
+State‑wise comparisons
+
+Update‑to‑enrolment ratios
+
+Key summary indicators
+
+To view the dashboard, simply open the file in a web browser:
+
+outputs/dashboard.html
+🔁 Reproducibility
+All analysis steps are fully reproducible using the provided notebooks.
+
+Dependencies are listed in requirements.txt.
+
+Standard Python libraries (os, glob, warnings) are used where required and are not listed as external dependencies.
+
+🔐 Data Ethics and Responsibility
+This project uses aggregated and anonymized datasets provided for the hackathon.
+No personally identifiable information (PII) is accessed, processed, or inferred.
+The analysis adheres to principles of responsible data usage, privacy protection, and fairness.
+
+📄 Final Submission
+The official hackathon submission is available as:
+
+final_report.pdf
+This document consolidates:
+
+Problem statement and approach
+
+Dataset description
+
+Methodology
+
+Analysis and visualizations
+
+Predictive insights
+
+Recommendations and conclusions
