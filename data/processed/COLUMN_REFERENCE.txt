@@ -1,0 +1,30 @@
+UIDAI HACKATHON - COLUMN REFERENCE
+======================================================================
+
+ENROLLMENT COLUMNS:
+----------------------------------------------------------------------
+ 1. date
+ 2. state
+ 3. district
+ 4. pincode
+ 5. age_0_5
+ 6. age_5_17
+ 7. age_18_greater
+
+DEMOGRAPHIC COLUMNS:
+----------------------------------------------------------------------
+ 1. date
+ 2. state
+ 3. district
+ 4. pincode
+ 5. demo_age_5_17
+ 6. demo_age_17_
+
+BIOMETRIC COLUMNS:
+----------------------------------------------------------------------
+ 1. date
+ 2. state
+ 3. district
+ 4. pincode
+ 5. bio_age_5_17
+ 6. bio_age_17_
